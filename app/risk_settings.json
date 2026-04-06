@@ -1,0 +1,14 @@
+{
+  "thresholds": {
+    "confidence_escalation_threshold": 0.65,
+    "moderate_prefilter_confidence_threshold": 0.7,
+    "high_risk_min_score": 55,
+    "moderate_risk_min_score": 18
+  },
+  "labels": {
+    "low": "LOW_RISK",
+    "moderate": "MODERATE_RISK",
+    "high_self_harm": "HIGH_RISK_SELF_HARM",
+    "high_harm_to_others": "HIGH_RISK_HARM_TO_OTHERS"
+  }
+}

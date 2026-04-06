@@ -1,0 +1,424 @@
+{
+  "mode": "fallback",
+  "samples": 205,
+  "accuracy": 0.9073170731707317,
+  "precision_macro": 0.9377540650406504,
+  "recall_macro": 0.8975,
+  "f1_macro": 0.9107867679296251,
+  "precision_weighted": 0.9241027166369224,
+  "recall_weighted": 0.9073170731707317,
+  "f1_weighted": 0.9084559537521208,
+  "confusion_matrix": [
+    [
+      65,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      46,
+      0,
+      0
+    ],
+    [
+      7,
+      2,
+      41,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      34
+    ]
+  ],
+  "classification_report": {
+    "LOW_RISK": {
+      "precision": 0.7926829268292683,
+      "recall": 1.0,
+      "f1-score": 0.8843537414965986,
+      "support": 65.0
+    },
+    "MODERATE_RISK": {
+      "precision": 0.9583333333333334,
+      "recall": 0.92,
+      "f1-score": 0.9387755102040817,
+      "support": 50.0
+    },
+    "HIGH_RISK_SELF_HARM": {
+      "precision": 1.0,
+      "recall": 0.82,
+      "f1-score": 0.9010989010989011,
+      "support": 50.0
+    },
+    "HIGH_RISK_HARM_TO_OTHERS": {
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1-score": 0.918918918918919,
+      "support": 40.0
+    },
+    "accuracy": 0.9073170731707317,
+    "macro avg": {
+      "precision": 0.9377540650406504,
+      "recall": 0.8975,
+      "f1-score": 0.9107867679296251,
+      "support": 205.0
+    },
+    "weighted avg": {
+      "precision": 0.9241027166369224,
+      "recall": 0.9073170731707317,
+      "f1-score": 0.9084559537521208,
+      "support": 205.0
+    }
+  },
+  "label_metrics": [
+    {
+      "label": "LOW_RISK",
+      "precision": 0.7926829268292683,
+      "recall": 1.0,
+      "f1": 0.8843537414965986,
+      "support": 65
+    },
+    {
+      "label": "MODERATE_RISK",
+      "precision": 0.9583333333333334,
+      "recall": 0.92,
+      "f1": 0.9387755102040817,
+      "support": 50
+    },
+    {
+      "label": "HIGH_RISK_SELF_HARM",
+      "precision": 1.0,
+      "recall": 0.82,
+      "f1": 0.9010989010989011,
+      "support": 50
+    },
+    {
+      "label": "HIGH_RISK_HARM_TO_OTHERS",
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1": 0.918918918918919,
+      "support": 40
+    }
+  ],
+  "category_metrics": [
+    {
+      "category": "benign_daily",
+      "samples": 15,
+      "accuracy": 1.0,
+      "correct": 15,
+      "mismatches": 0
+    },
+    {
+      "category": "distress_hopelessness",
+      "samples": 15,
+      "accuracy": 0.9333333333333333,
+      "correct": 14,
+      "mismatches": 1
+    },
+    {
+      "category": "explicit_harm_to_others",
+      "samples": 10,
+      "accuracy": 0.9,
+      "correct": 9,
+      "mismatches": 1
+    },
+    {
+      "category": "explicit_self_harm",
+      "samples": 15,
+      "accuracy": 0.7333333333333333,
+      "correct": 11,
+      "mismatches": 4
+    },
+    {
+      "category": "fiction_game_quote",
+      "samples": 10,
+      "accuracy": 1.0,
+      "correct": 10,
+      "mismatches": 0
+    },
+    {
+      "category": "genz_distress",
+      "samples": 10,
+      "accuracy": 0.7,
+      "correct": 7,
+      "mismatches": 3
+    },
+    {
+      "category": "help_seeking_distress",
+      "samples": 10,
+      "accuracy": 1.0,
+      "correct": 10,
+      "mismatches": 0
+    },
+    {
+      "category": "indirect_finality",
+      "samples": 10,
+      "accuracy": 0.9,
+      "correct": 9,
+      "mismatches": 1
+    },
+    {
+      "category": "indirect_self_harm",
+      "samples": 15,
+      "accuracy": 1.0,
+      "correct": 15,
+      "mismatches": 0
+    },
+    {
+      "category": "mass_harm_threat",
+      "samples": 10,
+      "accuracy": 1.0,
+      "correct": 10,
+      "mismatches": 0
+    },
+    {
+      "category": "planning_finality",
+      "samples": 15,
+      "accuracy": 0.8666666666666667,
+      "correct": 13,
+      "mismatches": 2
+    },
+    {
+      "category": "positive",
+      "samples": 15,
+      "accuracy": 1.0,
+      "correct": 15,
+      "mismatches": 0
+    },
+    {
+      "category": "sarcasm_quote_game",
+      "samples": 15,
+      "accuracy": 1.0,
+      "correct": 15,
+      "mismatches": 0
+    },
+    {
+      "category": "slang_or_merged_self_harm",
+      "samples": 10,
+      "accuracy": 0.8,
+      "correct": 8,
+      "mismatches": 2
+    },
+    {
+      "category": "specific_target_threat",
+      "samples": 10,
+      "accuracy": 0.5,
+      "correct": 5,
+      "mismatches": 5
+    },
+    {
+      "category": "vague_but_imminent_threat",
+      "samples": 10,
+      "accuracy": 1.0,
+      "correct": 10,
+      "mismatches": 0
+    },
+    {
+      "category": "vulgar_harmless",
+      "samples": 10,
+      "accuracy": 1.0,
+      "correct": 10,
+      "mismatches": 0
+    }
+  ],
+  "category_failure_summary": [
+    {
+      "category": "specific_target_threat",
+      "expected_label": "HIGH_RISK_HARM_TO_OTHERS",
+      "predicted_label": "LOW_RISK",
+      "count": 5
+    },
+    {
+      "category": "explicit_self_harm",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "count": 4
+    },
+    {
+      "category": "genz_distress",
+      "expected_label": "MODERATE_RISK",
+      "predicted_label": "LOW_RISK",
+      "count": 3
+    },
+    {
+      "category": "distress_hopelessness",
+      "expected_label": "MODERATE_RISK",
+      "predicted_label": "LOW_RISK",
+      "count": 1
+    },
+    {
+      "category": "explicit_harm_to_others",
+      "expected_label": "HIGH_RISK_HARM_TO_OTHERS",
+      "predicted_label": "LOW_RISK",
+      "count": 1
+    },
+    {
+      "category": "indirect_finality",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "count": 1
+    },
+    {
+      "category": "planning_finality",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "count": 1
+    },
+    {
+      "category": "planning_finality",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "MODERATE_RISK",
+      "count": 1
+    },
+    {
+      "category": "slang_or_merged_self_harm",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "count": 1
+    },
+    {
+      "category": "slang_or_merged_self_harm",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "MODERATE_RISK",
+      "count": 1
+    }
+  ],
+  "mismatches": [
+    {
+      "text": "i feel so empty inside lately",
+      "expected_label": "MODERATE_RISK",
+      "predicted_label": "LOW_RISK",
+      "category": "distress_hopelessness",
+      "notes": "hopelessness, burden, or numbness without explicit plan"
+    },
+    {
+      "text": "ngl i feel like a burden rn",
+      "expected_label": "MODERATE_RISK",
+      "predicted_label": "LOW_RISK",
+      "category": "genz_distress",
+      "notes": "slang-heavy distress language that still indicates meaningful risk"
+    },
+    {
+      "text": "idk how much longer i can do this",
+      "expected_label": "MODERATE_RISK",
+      "predicted_label": "LOW_RISK",
+      "category": "genz_distress",
+      "notes": "slang-heavy distress language that still indicates meaningful risk"
+    },
+    {
+      "text": "i am so done with life lately",
+      "expected_label": "MODERATE_RISK",
+      "predicted_label": "LOW_RISK",
+      "category": "genz_distress",
+      "notes": "slang-heavy distress language that still indicates meaningful risk"
+    },
+    {
+      "text": "i know how i am going to do it",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "category": "explicit_self_harm",
+      "notes": "explicit self-harm intent"
+    },
+    {
+      "text": "i said goodbye to everyone already",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "category": "explicit_self_harm",
+      "notes": "explicit self-harm intent"
+    },
+    {
+      "text": "tonight is the night i do it",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "category": "explicit_self_harm",
+      "notes": "explicit self-harm intent"
+    },
+    {
+      "text": "i am ready to die",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "category": "explicit_self_harm",
+      "notes": "explicit self-harm intent"
+    },
+    {
+      "text": "nobody can stop me from ending this tonight",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "category": "planning_finality",
+      "notes": "planning, method, or farewell language"
+    },
+    {
+      "text": "there is no point waiting anymore i am ending it",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "MODERATE_RISK",
+      "category": "planning_finality",
+      "notes": "planning, method, or farewell language"
+    },
+    {
+      "text": "betteroffwithoutme so imma do it",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "MODERATE_RISK",
+      "category": "slang_or_merged_self_harm",
+      "notes": "slang or merged self-harm language"
+    },
+    {
+      "text": "unalive myself after this",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "category": "slang_or_merged_self_harm",
+      "notes": "slang or merged self-harm language"
+    },
+    {
+      "text": "i am leaving for good tonight",
+      "expected_label": "HIGH_RISK_SELF_HARM",
+      "predicted_label": "LOW_RISK",
+      "category": "indirect_finality",
+      "notes": "strong finality implying imminent self-harm"
+    },
+    {
+      "text": "someone should die and i will do it",
+      "expected_label": "HIGH_RISK_HARM_TO_OTHERS",
+      "predicted_label": "LOW_RISK",
+      "category": "explicit_harm_to_others",
+      "notes": "direct violent threat toward others"
+    },
+    {
+      "text": "i want to shoot my coworker",
+      "expected_label": "HIGH_RISK_HARM_TO_OTHERS",
+      "predicted_label": "LOW_RISK",
+      "category": "specific_target_threat",
+      "notes": "specific target violent threat"
+    },
+    {
+      "text": "i am gonna hurt my neighbor badly",
+      "expected_label": "HIGH_RISK_HARM_TO_OTHERS",
+      "predicted_label": "LOW_RISK",
+      "category": "specific_target_threat",
+      "notes": "specific target violent threat"
+    },
+    {
+      "text": "i will murder that guy tonight",
+      "expected_label": "HIGH_RISK_HARM_TO_OTHERS",
+      "predicted_label": "LOW_RISK",
+      "category": "specific_target_threat",
+      "notes": "specific target violent threat"
+    },
+    {
+      "text": "i am going to hurt my teacher",
+      "expected_label": "HIGH_RISK_HARM_TO_OTHERS",
+      "predicted_label": "LOW_RISK",
+      "category": "specific_target_threat",
+      "notes": "specific target violent threat"
+    },
+    {
+      "text": "i am gonna shoot that man",
+      "expected_label": "HIGH_RISK_HARM_TO_OTHERS",
+      "predicted_label": "LOW_RISK",
+      "category": "specific_target_threat",
+      "notes": "specific target violent threat"
+    }
+  ]
+}

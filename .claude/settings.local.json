@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m py_compile src/models/classical_ml.py)",
+      "Bash(python -m py_compile src/models/deep_learning.py)",
+      "Bash(python -m py_compile src/models/transformer.py)",
+      "Bash(python -m py_compile src/evaluation/metrics.py)",
+      "Bash(python -m py_compile src/visualization/plots.py)",
+      "Bash(python -m py_compile src/data/preprocess.py)",
+      "Bash(python -m py_compile src/data/generate_synthetic.py)",
+      "Bash(python -m py_compile src/data/download_data.py)",
+      "Bash(python -m py_compile src/features/text_features.py)",
+      "Bash(python -m py_compile src/features/sentiment_features.py)",
+      "Bash(python -m py_compile app/agents/unified_agent.py app/agents/orchestrator.py app/api/routes.py app/agents/cache.py)",
+      "Bash(python run.py)",
+      "Bash(curl -s http://localhost:8000/health)"
+    ]
+  }
+}
